@@ -1,8 +1,12 @@
-Készitők
 
-|Read me| |net beans file| |Git HUb|
+
+Mozi projekt
+   | Mogyoródi Balázs  | Pálinkás Arnold | Pálóci Ernő | 
 | :------------ |:---------------:| -----:|
-|Mogyoródi Balázs||Páloci Ernő||Pálinkás Arnold|
+| col 3 is      | some wordy text | $1600 |
+
+Lehet jegyet venni
+
 
 
 
