@@ -1,9 +1,9 @@
 ## Mozi
 | Készítette  | Feladat |
 | ------------- | ------------- |
-| Mogyoródi Balázs | ---  |
-| Pálóci Ernő  | ---  |
-| Pálinkás Arnold  | ---  |
+| Mogyoródi Balázs | README fájl |
+| Pálóci Ernő  | GIT Repository  |
+| Pálinkás Arnold  | NetBeans projekt |
 
 
 
