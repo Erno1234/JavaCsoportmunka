@@ -1,11 +1,10 @@
+## Mozi
+| Készítette  | Feladat |
+| ------------- | ------------- |
+| Mogyoródi Balázs | ---  |
+| Pálóci Ernő  | ---  |
+| Pálinkás Arnold  | ---  |
 
-
-Mozi projekt
-   | Mogyoródi Balázs  | Pálinkás Arnold | Pálóci Ernő | 
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-
-Lehet jegyet venni
 
 
 
