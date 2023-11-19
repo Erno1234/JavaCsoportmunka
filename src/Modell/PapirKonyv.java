@@ -26,6 +26,7 @@ public class PapirKonyv extends Konyv {
     }
     
     
+    @Override
     public void kolcsonzesHatasa() {
         allapot *= .97;
     }
