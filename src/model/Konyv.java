@@ -1,13 +1,41 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-/**
- *
- * @author szigeti
- */
-public class Konyv {
+public abstract class Konyv {
+
+    private String cim;
+    private boolean kolcsonzott;
+
+    public Konyv(String cim) {
+        this.cim = cim;
+        kolcsonzott = false;
+    }
+
+    public String getCime() {
+        return cim;
+    }
+
+    public void setCime(String kolcsonzoNeve) {
+        this.cim = kolcsonzoNeve;
+    }
+
+    public boolean isKolcsonzott() {
+        return kolcsonzott;
+    }
     
+ public boolean getKolncsonzesiAllapot() {
+        return kolcsonzott;
+    }
+ 
+    public void setKolcsonzesiAllapott(boolean kolcsonzott) {
+        this.kolcsonzott = kolcsonzott;
+    }
+
+    @Override
+    public String toString() {
+        return "Könyv{" + "kölcsönzött könyv neve=" + cim + ", kölcsönzési állapota=" + kolcsonzott + '}';
+    }
+
+    public abstract void altalanosAllapotRomlas();
+    public abstract void kimeloMobbAllapotRomlas();
+
 }
