@@ -3,11 +3,13 @@ package Modell;
 
 public class PapirKonyv extends Konyv {
     private double allapot;
-    
-    public PapirKonyv(String kolcsonzo) {
-        super(kolcsonzo);
+
+    public PapirKonyv(String kolcsonzo, String cim) {
+        super(kolcsonzo, cim);
         this.allapot = 100;
     }
+    
+  
 
     public double getAllapot() {
         return allapot;

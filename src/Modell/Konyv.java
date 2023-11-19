@@ -3,13 +3,23 @@ package Modell;
 
 public abstract class Konyv {
     private String kolcsonzo;
+    private String cim;
     private boolean kiadva;
 
-    public Konyv(String kolcsonzo) {
+    public Konyv(String kolcsonzo, String cim) {
         this.kolcsonzo = kolcsonzo;
+        this.cim = cim;
         kiadva = false;
     }
 
+    public String getCim() {
+        return cim;
+    }
+
+    public void setCim(String cim) {
+        this.cim = cim;
+    }
+    
     public String getKolcsonzo() {
         return kolcsonzo;
     }

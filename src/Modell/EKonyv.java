@@ -4,8 +4,8 @@ package Modell;
 public class EKonyv extends Konyv{
     private double nepszeruseg;
     
-    public EKonyv(String kolcsonzo) {
-        super(kolcsonzo);
+    public EKonyv(String kolcsonzo, String cim) {
+        super(kolcsonzo, cim);
         this.nepszeruseg = 1;
     }
 
