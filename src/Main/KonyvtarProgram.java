@@ -1,7 +1,7 @@
 
 package Main;
 
-public class MoziProgram {
+public class KonyvtarProgram {
 
     public static void main(String[] args) {
         
