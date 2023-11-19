@@ -1,13 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Modell;
 
-/**
- *
- * @author Pálóci Ernő
- */
-public class PapirKonyv {
+public class PapirKonyv extends Konyv {
+    private double allapot;
     
+    public PapirKonyv(String kolcsonzo) {
+        super(kolcsonzo);
+        this.allapot = 100;
+    }
+
+    public double getAllapot() {
+        return allapot;
+    }
+
+    public void setAllapot(double allapot) {
+        this.allapot = allapot;
+    }
+
+    
+   @Override
+    public String toString() {
+        String szoveg = super.toString();
+        szoveg += "{ allapot=" + allapot + '}';
+        return szoveg;
+    }
+    
+    
+    public void kolcsonzesHatasa() {
+        allapot *= .97;
+    }
 }
