@@ -63,13 +63,13 @@ public class Konyvtar {
         Konyv konyvVisszaAd = new VisszaHozottKonyv();
         if (allapot == UzemelesiAllapot.UZEMEL) {
             int i = 0;
-            while (konyvek[i] == null || i < konyvDb && !(konyvek[i].getCim().equals(cim))) {
+            while (i < konyvDb && konyvek[i] != null && !(konyvek[i].getCim().equals(cim))) {
                 i++;
             }
             if (i < konyvDb) {
                 konyvek[i].setKiadva(false);
-                String tipus = konyvek[i] instanceof Konyv ? "Papír" : "Elektronikus";
-                System.out.println("Kiadva %s %s!".formatted(cim, tipus));
+                String tipus = konyvek[i] instanceof Konyv ? "Elektronikus" : "Papír";
+                System.out.println("Leadva %s %s!".formatted(cim, tipus));
                 konyvVisszaAd = konyvek[i];
                 konyvek[i] = null;
             } else {

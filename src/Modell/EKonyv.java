@@ -1,9 +1,9 @@
-
 package Modell;
 
-public class EKonyv extends Konyv{
+public class EKonyv extends Konyv {
+
     private double nepszeruseg;
-    
+
     public EKonyv(String kolcsonzo, String cim) {
         super(kolcsonzo, cim);
         this.nepszeruseg = 1;
@@ -17,15 +17,13 @@ public class EKonyv extends Konyv{
         this.nepszeruseg = nepszeruseg;
     }
 
-    
-   @Override
+    @Override
     public String toString() {
         String szoveg = super.toString();
-        szoveg += "{ allapot=" + nepszeruseg + '}';
+        szoveg += "{ nepszeruseg=" + nepszeruseg + '}';
         return szoveg;
     }
-    
-    
+
     @Override
     public void kolcsonzesHatasa() {
         nepszeruseg += 0.2;
